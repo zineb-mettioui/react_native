@@ -1,4 +1,3 @@
-import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import HomeScreen from "./screens/HomeScreen";
@@ -15,7 +14,7 @@ const products = [
     price: "EUR 299",
     details:
       "Deze smart ring helpt je met slaap, hartslag en dagelijkse activiteit.",
-    image: require("./assets/bed.webp"),
+    image: require("./assets/blue_Of_London.png"),
   },
   {
     id: 2,
